@@ -1,0 +1,8 @@
+
+@import url(test2.css);
+div {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+

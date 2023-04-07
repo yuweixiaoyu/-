@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul style="background-color: pink; height: 200px;">
+        <li style="width: 200px; background-color: orange;">张世杰</li>
+    </ul>
+    <script src="./js/jQuery.min.js"></script>
+    <script>
+        $('li').on('mouseenter',function () {
+            console.log('进入li');
+        })
+        $('ul').hover(function () {
+            console.log('进入ul');
+        },function () {
+            console.log('出去ul');
+        })
+    </script>
+</body>
+</html>
